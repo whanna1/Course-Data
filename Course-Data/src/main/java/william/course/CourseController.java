@@ -18,6 +18,7 @@ public class CourseController {
 	@Autowired
 	private CourseService courseService;
 	
+	//2nd Commit git test
 	//Added for git
 	@RequestMapping("/topics/{id}/courses")
 	public List<Course> getAllCourses(@PathVariable String id) {
